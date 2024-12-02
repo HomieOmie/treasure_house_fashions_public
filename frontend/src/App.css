@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+#top-bar {
+  background-color: #c04c8b;
+  padding: 4vh;
+}
+
+#top-bar>.row {
+  background-color: #c04c8b;
+}
+
+
+/* TODO: hard-coded with important to overwrite bootstrap colors, please 
+  lmk if there's a better way to do it */
+.btn {
+  background-color: white !important;
+  color: #DF4A9B !important;
+  border-color: #DF4A9B !important;
+}
+
+.btn:hover {
+  background-color: #DF4A9B !important;
+  color: white !important;
+}
+
+#menu-icon {
+  min-width: 5vw;
+  min-height: 5vh;
+}
+
+h1 {
+  color: white;
+}
+
+#basic-nav-dropdown {
+  display: inline-block;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 24px;
+}
+
+.row {
+  margin: 2vh 0;
+  background-color: #f6d5e7;
+  border-radius: 0.5em;
+}
+
+.search-filter>.row {
+  background-color: #f5b6df;
+}
+
+table {
+  background-color: #f5b6df;
+  border-radius: 0.5em;
+}
+
+.pagination>btn {
+  border-color: #DF4A9B;
+  background-color: white;
+  color: #DF4A9B;
+}
+
+.cert-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.list-title {
+  margin: 20px;
+  width: 240px;
+  text-align: center;
+}
+
+.pagination {
+  justify-content: center;
+  margin-bottom: 2vh;
+}
+
+#item-options {
+  padding: 2vh 0;
+}
+
+#item-options>button {
+  margin: 0 0.75vw;
+}
+
+.search-options>button {
+  margin: 0 0.75vw 0 0.6vw;
+}
+
+#start-filter {
+  margin-left: 0.75vw;
+}
+
+.page-num {
+  margin: 0 12px;
+}
+
+form {
+  padding-bottom: 1vh;
+}
+
+.homepage-img {
+  border-radius: 0.5em;
+}
+
+#footer {
+  background-color: #c04c8b;
+  padding: 2vh;
+  text-align: center;
+  color: white;
+}
+
+#footer a {
+  color: rgb(104, 225, 249);
+}
